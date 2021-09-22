@@ -1,0 +1,13 @@
+apiVersion: tenantoperator.stakater.com/v1alpha1
+kind: Tenant
+metadata:
+  name: veeru
+spec:
+  users:
+    admin:
+    - hanzala@stakater.com
+    - sabkat@stakater.com
+    - nebojsa
+    # Test user for Stakater Cloud IAM
+    - sro-privileged
+  quota: medium
